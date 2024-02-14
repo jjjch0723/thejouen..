@@ -23,9 +23,8 @@ public class p_Status {
 		super();
 	}
 
-	// return user method
+	// 유저 생성 메서드
 	void player_make() {
-		
 		System.out.println("당신의 이름을 입력하세요.");
 		p_name = sc.nextLine();
 		System.out.println("---------------------------------------------");
@@ -119,6 +118,4 @@ public class p_Status {
 				+ "민첩 : " + p_dex + " \n" + "무기 :" + weapon_name + " \n");
 		System.out.println("-------------------------------------------------------");
 	}
-
-	
 }

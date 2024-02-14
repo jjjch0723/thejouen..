@@ -1,0 +1,42 @@
+{
+    "Kobold": {
+        "hp": 100,
+        "weaponName": "Dagger",
+        "weaponDice": 4,
+        "strength": 10,
+        "dexterity": 8,
+        "level": 1
+    },
+    "Ork": {
+        "hp": 150,
+        "weaponName": "Stick",
+        "weaponDice": 6,
+        "strength": 14,
+        "dexterity": 7,
+        "level": 2
+    },
+    "Ork leader": {
+    	"hp": 200,
+        "weaponName": "Mace",
+        "weaponDice": 8,
+        "strength": 15,
+        "dexterity": 9,
+        "level": 3  
+    },
+    "Orge": {
+    	"hp": 300,
+        "weaponName": "Stick",
+        "weaponDice": 6,
+        "strength": 18,
+        "dexterity": 10,
+        "level": 4
+    },
+    "Fallen knight": {
+    	"hp": 200,
+        "weaponName": "Bastard Sword",
+        "weaponDice": 8,
+        "strength": 18,
+        "dexterity": 12,
+        "level": 5
+    }
+}
