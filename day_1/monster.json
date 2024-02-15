@@ -1,3 +1,4 @@
+{"monsters": 
 {
     "Kobold": {
         "hp": 100,
@@ -39,4 +40,5 @@
         "dexterity": 12,
         "level": 5
     }
+}
 }

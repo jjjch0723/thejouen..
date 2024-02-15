@@ -22,6 +22,170 @@ public class p_Status {
 	public p_Status() {
 		super();
 	}
+	
+	
+
+	public Scanner getSc() {
+		return sc;
+	}
+
+
+
+	public void setSc(Scanner sc) {
+		this.sc = sc;
+	}
+
+
+
+	public Random getRdm() {
+		return rdm;
+	}
+
+
+
+	public void setRdm(Random rdm) {
+		this.rdm = rdm;
+	}
+
+
+
+	public String getP_name() {
+		return p_name;
+	}
+
+
+
+	public void setP_name(String p_name) {
+		this.p_name = p_name;
+	}
+
+
+
+	public int getP_job() {
+		return p_job;
+	}
+
+
+
+	public void setP_job(int p_job) {
+		this.p_job = p_job;
+	}
+
+
+
+	public int getP_level() {
+		return p_level;
+	}
+
+
+
+	public void setP_level(int p_level) {
+		this.p_level = p_level;
+	}
+
+
+
+	public int getP_hp() {
+		return p_hp;
+	}
+
+
+
+	public void setP_hp(int p_hp) {
+		this.p_hp = p_hp;
+	}
+
+
+
+	public int getP_weapon() {
+		return p_weapon;
+	}
+
+
+
+	public void setP_weapon(int p_weapon) {
+		this.p_weapon = p_weapon;
+	}
+
+
+
+	public String getWeapon_name() {
+		return weapon_name;
+	}
+
+
+
+	public void setWeapon_name(String weapon_name) {
+		this.weapon_name = weapon_name;
+	}
+
+
+
+	public int getWeapon_dice() {
+		return weapon_dice;
+	}
+
+
+
+	public void setWeapon_dice(int weapon_dice) {
+		this.weapon_dice = weapon_dice;
+	}
+
+
+
+	public int getP_attk() {
+		return p_attk;
+	}
+
+
+
+	public void setP_attk(int p_attk) {
+		this.p_attk = p_attk;
+	}
+
+
+
+	public int getP_str() {
+		return p_str;
+	}
+
+
+
+	public void setP_str(int p_str) {
+		this.p_str = p_str;
+	}
+
+
+
+	public int getP_dex() {
+		return p_dex;
+	}
+
+
+
+	public void setP_dex(int p_dex) {
+		this.p_dex = p_dex;
+	}
+
+
+	public p_Status(Scanner sc, Random rdm, String p_name, int p_job, int p_level, int p_hp, int p_weapon,
+			String weapon_name, int weapon_dice, int p_attk, int p_str, int p_dex) {
+		super();
+		this.sc = sc;
+		this.rdm = rdm;
+		this.p_name = p_name;
+		this.p_job = p_job;
+		this.p_level = p_level;
+		this.p_hp = p_hp;
+		this.p_weapon = p_weapon;
+		this.weapon_name = weapon_name;
+		this.weapon_dice = weapon_dice;
+		this.p_attk = p_attk;
+		this.p_str = p_str;
+		this.p_dex = p_dex;
+	}
+
+
 
 	// 유저 생성 메서드
 	void player_make() {
